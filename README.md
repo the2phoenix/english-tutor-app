@@ -1,16 +1,66 @@
-# React + Vite
+# English Tutor App for Mom 👩‍🏫
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personalized, interactive web application built to help my mother master English conversation, grammar, and writing in 100 days.
 
-Currently, two official plugins are available:
+## 🎯 Why This Was Built
+My mother, like many others, understands some English but lacks the confidence to speak it. She struggles with:
+*   **Grammar Basics:** Confusion with "is/am/are", articles ("a/an/the"), and tenses.
+*   **Spelling:** Phonetic errors (e.g., writing "tebal" instead of "table").
+*   **Speaking Confidence:** Hesitation in real-life scenarios like shopping, visiting the doctor, or traveling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This app was built to bridge that gap—moving her from "understanding a little" to **speaking fluently and confidently**.
 
-## React Compiler
+## 👤 Who It Is For
+*   **Target User:** My 46-year-old mother (and anyone with a similar profile!).
+*   **Native Language:** Hindi (Explanations are provided in Hindi for better understanding).
+*   **Learning Style:** Audio-visual learner who needs a slow, steady pace.
+*   **Goal:** To handle daily conversations independently and confidently.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 How It Helps
+This isn't just a generic course; it's a tailored learning system:
 
-## Expanding the ESLint configuration
+1.  **100-Day Structured Curriculum:** A day-by-day plan that starts with the absolute basics (articles, greetings) and progresses to complex conversations.
+2.  **Hindi-to-English Approach:** Concepts are explained in her mother tongue to ensure 100% comprehension.
+3.  **Interactive Practice:**
+    *   **🗣️ Speech Recognition:** She speaks, and the app listens to correct her pronunciation.
+    *   **🔊 Text-to-Speech:** She can hear exactly how words should sound.
+    *   **✍️ Writing Exercises:** Targeted practice to fix common spelling mistakes.
+4.  **Gamification:** Points, streaks, and progress tracking to keep her motivated every single day.
+5.  **Real-Life Scenarios:** Lessons focus on practical situations: "At the Market," "Talking to Relatives," "Travel," etc.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ How It Was Built
+This project followed a user-centric development process:
+
+1.  **Assessment & Profiling:**
+    *   I started by assessing her current level (Reading: 3/5, Speaking: 1/5).
+    *   Identified specific weak points (e.g., "You great" instead of "You *are* great").
+    *   Created a `mom_profile.js` to map out her learning needs.
+
+2.  **Curriculum Design:**
+    *   Designed a custom 100-day syllabus.
+    *   Prioritized high-urgency topics like "is/am/are" and "articles" for the first week.
+
+3.  **Technology Stack:**
+    *   **Frontend:** React + Vite (for a fast, responsive mobile-friendly UI).
+    *   **Routing:** React Router (for easy navigation between lessons).
+    *   **Styling:** Vanilla CSS (custom-designed for a clean, "premium" look).
+    *   **Speech API:** Web Speech API for text-to-speech and voice recognition.
+
+4.  **Deployment:**
+    *   **Version Control:** Git & GitHub.
+    *   **Hosting:** Render (Static Site) for instant, reliable access on her smartphone.
+
+## 💻 Running Locally
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/the2phoenix/english-tutor-app.git
+    ```
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+3.  Run the development server:
+    ```bash
+    npm run dev
+    ```
